@@ -15,7 +15,9 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     ruby-full \
     rubygems-integration \
-    graphicsmagick
+    graphicsmagick \
+    openssh-client \
+    sshpass
 
 RUN gem install sass \
     && gem install bundler
